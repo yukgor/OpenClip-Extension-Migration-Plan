@@ -2,6 +2,8 @@
 /*
  * main.js — 密码生成器
  * 由 PopClip 扩展 password-generator（Main.ts）移植。
+ * This OpenClip extension is a port of the original PopClip plugin by Seven Yu, licensed under the MIT License.
+ * 此 OpenClip 扩展是 Seven Yu 开发的原始 PopClip 插件的移植版本，采用 MIT 许可证授权。
  * 生成逻辑与原版一致：
  *  - CSPRNG 随机（WebCrypto getRandomValues，拒绝采样消除模偏差）
  *  - 每个启用的字符类别至少出现一次
