@@ -6,13 +6,13 @@ Convert text between Traditional and Simplified Chinese. A port of the PopClip e
 
 ## Usage / 用法
 
-1. Select any Chinese text (the actions appear only when the selection contains CJK characters).
-2. Open the OpenClip popup and choose:
+1. Select any Chinese text (the actions appear only when the selection contains CJK characters) 选择任何中文文本（仅当选择包含CJK字符时动作才会出现）.
+2. Open the OpenClip popup and choose 打开 OpenClip 弹出窗口并选择:
 
-   - **Convert to Simplified / 转为简体** — pastes the simplified conversion.
-   - **Convert to Traditional / 转为繁体** — pastes the traditional conversion.
+   - **Convert to Simplified / 转为简体** — pastes the simplified conversion **转为简体** — 粘贴简体转换结果.
+   - **Convert to Traditional / 转为繁体** — pastes the traditional conversion **轉為繁體** — 貼上繁體轉換.
 
-3. The converted text replaces the selection (paste); a right-click / ⇧-click copies it instead.
+3. The converted text replaces the selection (paste); a right-click / ⇧-click copies it instead 转换后的文本替换所选内容（粘贴）；右键单击/⇧-单击复制它.
 
 ## Options / 设置
 
