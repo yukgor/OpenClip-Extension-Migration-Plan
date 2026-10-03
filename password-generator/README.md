@@ -41,7 +41,6 @@ Recommended default is **Show in Card** (`result: "preview"`); change it anytime
 
 ## Notes / 说明
 
-- Minimum OpenClip version: 1.1.0 (localized manifest support).
 - The original extension’s `After generating` option and its non-native “show” popup were removed: result delivery is now fully governed by OpenClip’s native output setting.
 - The original two UI section headings (“Character classes” / “Advanced”) have no OpenClip equivalent and were dropped; all functional options are preserved.
 - Password Length is offered as a preset picker (the original was a free-text field). Values outside the presets require editing `openclip.json`.
