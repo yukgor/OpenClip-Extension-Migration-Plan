@@ -24,6 +24,4 @@ Convert text between Traditional and Simplified Chinese. A port of the PopClip e
 
 ## Notes / 说明
 
-- The actions only appear when the selected text contains Chinese characters (`[\u4E00-\u9FFF\u3400-\u4DBF]`), matching the original extension.
-- Because OpenClip has no option-gated menu visibility, the two boolean toggles are honored inside the script: when a toggle is off, clicking that action shows a notice instead of converting.
-- Minimum OpenClip version: 1.1.0 (localized manifest support).
+- The actions only appear when the selected text contains Chinese characters (`[\u4E00-\u9FFF\u3400-\u4DBF]`), matching the original extension 操作仅在所选文本包含中文字符（[\u4E00-\u9FFF\u3400-\u4DBF]）时出现，匹配原始扩展.
