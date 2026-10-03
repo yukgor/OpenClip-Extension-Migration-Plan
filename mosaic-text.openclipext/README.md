@@ -21,3 +21,7 @@ Available characters 可用字符 : `*`, `#`, `■`, `●`, `▇`, `✱`, `×`, 
 ## Notes / 说明
 
 - The mosaic length always matches the selected text length 马赛克长度始终与所选文本长度匹配.
+
+## Statement / 声明
+
+**This OpenClip extension is a port of the original PopClip plugin by [Seven Yu](https://github.com/dofy), licensed under the MIT License.**
