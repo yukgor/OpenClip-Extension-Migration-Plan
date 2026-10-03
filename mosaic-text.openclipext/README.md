@@ -20,5 +20,4 @@ Available characters 可用字符 : `*`, `#`, `■`, `●`, `▇`, `✱`, `×`, 
 
 ## Notes / 说明
 
-- Minimum OpenClip version: 1.1.0 (localized manifest support) .
-- The mosaic length always matches the selected text length.
+- The mosaic length always matches the selected text length 马赛克长度始终与所选文本长度匹配.
