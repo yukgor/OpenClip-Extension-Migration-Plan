@@ -1,9 +1,9 @@
 "use strict";
 /*
  * mosaic.js — 马赛克打码
- * 由 PopClip 扩展 mosaic-text 移植：
  * This OpenClip extension is a port of the original PopClip plugin by Seven Yu, licensed under the MIT License.
  * 此 OpenClip 扩展是 Seven Yu 开发的原始 PopClip 插件的移植版本，采用 MIT 许可证授权。
+ * 由 PopClip 扩展 mosaic-text 移植：
  * 用打码字符（长度与选区一致）粘贴替换选中文本，
  * 同时把原文复制到剪贴板，便于误操作后恢复。
  */
