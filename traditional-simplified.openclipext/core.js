@@ -1,6 +1,8 @@
 "use strict";
 /*
  * core.js — 简繁转换引擎
+  * This OpenClip extension is a port of the original PopClip plugin by Nick Moore, licensed under the MIT License.
+ * 此 OpenClip 扩展是 Nick Moore 开发的原始 PopClip 插件的移植版本，采用 MIT 许可证授权。
  * 由 PopClip 扩展 traditional-simplified 的 module.bundle.js 移植：
  * 转换引擎（tongwen-core）逻辑逐行保留，仅将字典加载改为
  * OpenClip 模块加载器支持的 CommonJS .js 模块，并暴露转换函数。
