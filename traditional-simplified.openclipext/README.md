@@ -1,0 +1,29 @@
+# Traditional/Simplified · 简繁转换器
+
+Convert text between Traditional and Simplified Chinese. A port of the PopClip extension of the same name for OpenClip, powered by the [tongwen-core](https://github.com/penndu/tongwen) dictionary (OpenCC-based, phrase-aware).
+
+在简体中文与繁体中文之间转换选中的文本。本扩展为同名 PopClip 扩展的 OpenClip 移植版，转换引擎与词库（OpenCC 系，支持词组优先）保持一致。
+
+## Usage / 用法
+
+1. Select any Chinese text (the actions appear only when the selection contains CJK characters).
+2. Open the OpenClip popup and choose:
+
+   - **Convert to Simplified / 转为简体** — pastes the simplified conversion.
+   - **Convert to Traditional / 转为繁体** — pastes the traditional conversion.
+
+3. The converted text replaces the selection (paste); a right-click / ⇧-click copies it instead.
+
+## Options / 设置
+
+| Option | Type | Default | Description |
+|---|---|---|---|
+| Convert to Simplified | boolean | On | Enables the “Convert to Simplified” action |
+| Convert to Traditional | boolean | On | Enables the “Convert to Traditional” action |
+| Conversion Mode | picker | Phrase | `Phrase` prefers phrase-level dictionary matches; `Character` converts character by character |
+
+## Notes / 说明
+
+- The actions only appear when the selected text contains Chinese characters (`[\u4E00-\u9FFF\u3400-\u4DBF]`), matching the original extension.
+- Because OpenClip has no option-gated menu visibility, the two boolean toggles are honored inside the script: when a toggle is off, clicking that action shows a notice instead of converting.
+- Minimum OpenClip version: 1.1.0 (localized manifest support).

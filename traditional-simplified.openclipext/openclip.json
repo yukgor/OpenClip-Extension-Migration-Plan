@@ -1,0 +1,116 @@
+{
+  "actions" : [
+    {
+      "icon" : "trad-sim.png",
+      "id" : "to-simplified",
+      "keywords" : [
+        "simplified",
+        "简体",
+        "簡體",
+        "繁转简",
+        "繁轉簡"
+      ],
+      "output" : "text",
+      "requirements" : {
+        "appsMode" : "allow",
+        "regex" : "[\\u4E00-\\u9FFF\\u3400-\\u4DBF]",
+        "regexNegated" : false,
+        "requiresSelection" : true
+      },
+      "result" : "paste",
+      "script" : "to-simplified.js",
+      "title" : {
+        "en" : "Convert to Simplified",
+        "zh-Hans" : "转为简体",
+        "zh-Hant" : "轉為簡體"
+      },
+      "type" : "javascript"
+    },
+    {
+      "icon" : "trad-sim.png",
+      "id" : "to-traditional",
+      "keywords" : [
+        "traditional",
+        "繁体",
+        "繁體",
+        "简转繁",
+        "簡轉繁"
+      ],
+      "output" : "text",
+      "requirements" : {
+        "appsMode" : "allow",
+        "regex" : "[\\u4E00-\\u9FFF\\u3400-\\u4DBF]",
+        "regexNegated" : false,
+        "requiresSelection" : true
+      },
+      "result" : "paste",
+      "script" : "to-traditional.js",
+      "title" : {
+        "en" : "Convert to Traditional",
+        "zh-Hans" : "转为繁体",
+        "zh-Hant" : "轉為繁體"
+      },
+      "type" : "javascript"
+    }
+  ],
+  "description" : {
+    "en" : "Convert text between Traditional and Simplified Chinese.",
+    "zh-Hans" : "在简体中文与繁体中文之间转换选中的文本。",
+    "zh-Hant" : "在簡體中文與繁體中文之間轉換選中的文字。"
+  },
+  "identifier" : "com.pilotmoon.popclip.extension.traditional-simplified",
+  "keywords" : [
+    "chinese",
+    "traditional",
+    "simplified",
+    "简体",
+    "繁体",
+    "簡體",
+    "繁體",
+    "转换",
+    "轉換"
+  ],
+  "minOpenClipVersion" : "1.1.0",
+  "name" : {
+    "en" : "Traditional\/Simplified",
+    "zh-Hans" : "简繁转换器",
+    "zh-Hant" : "簡繁轉換器"
+  },
+  "options" : [
+    {
+      "default" : "true",
+      "identifier" : "showSimplified",
+      "label" : {
+        "en" : "Convert to Simplified",
+        "zh-Hans" : "转为简体",
+        "zh-Hant" : "轉為簡體"
+      },
+      "type" : "boolean"
+    },
+    {
+      "default" : "true",
+      "identifier" : "showTraditional",
+      "label" : {
+        "en" : "Convert to Traditional",
+        "zh-Hans" : "转为繁体",
+        "zh-Hant" : "轉為繁體"
+      },
+      "type" : "boolean"
+    },
+    {
+      "default" : "phrase",
+      "identifier" : "conversionMode",
+      "label" : {
+        "en" : "Conversion Mode",
+        "zh-Hans" : "转换模式",
+        "zh-Hant" : "轉換模式"
+      },
+      "type" : "multiple",
+      "values" : [
+        "phrase",
+        "char"
+      ]
+    }
+  ],
+  "version" : "1.0.0"
+}
