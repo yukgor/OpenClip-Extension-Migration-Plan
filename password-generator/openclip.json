@@ -1,0 +1,155 @@
+{
+  "actions" : [
+    {
+      "icon" : "symbol(key)",
+      "id" : "generate-password",
+      "keywords" : [
+        "password",
+        "random",
+        "generate",
+        "密码",
+        "密碼"
+      ],
+      "output" : "text",
+      "requirements" : {
+        "appsMode" : "allow",
+        "regexNegated" : false,
+        "requiresSelection" : false
+      },
+      "result" : "preview",
+      "script" : "main.js",
+      "title" : {
+        "en" : "Generate Password",
+        "ja" : "パスワードを生成する",
+        "zh-Hans" : "生成密码",
+        "zh-Hant" : "生成密碼"
+      },
+      "type" : "javascript"
+    }
+  ],
+  "description" : {
+    "en" : "Generate a random password with configurable character classes.",
+    "ja" : "設定可能な文字種でランダムなパスワードを生成します。",
+    "zh-Hans" : "生成可配置字符类别的随机密码。",
+    "zh-Hant" : "生成可設定字元類別的隨機密碼。"
+  },
+  "identifier" : "org.phpz.popclip.extension.password-generator",
+  "keywords" : [
+    "password",
+    "random",
+    "secure",
+    "generator",
+    "密码",
+    "密碼",
+    "随机",
+    "隨機"
+  ],
+  "minOpenClipVersion" : "1.1.0",
+  "name" : {
+    "en" : "Password Generator",
+    "ja" : "パスワードジェネレーター",
+    "zh-Hans" : "密码生成器",
+    "zh-Hant" : "密碼生成器"
+  },
+  "options" : [
+    {
+      "default" : "16",
+      "identifier" : "leng",
+      "label" : {
+        "en" : "Password Length",
+        "ja" : "パスワードの長さ",
+        "zh-Hans" : "密码长度",
+        "zh-Hant" : "密碼長度"
+      },
+      "type" : "multiple",
+      "values" : [
+        "8",
+        "12",
+        "16",
+        "20",
+        "24",
+        "32",
+        "48",
+        "64"
+      ]
+    },
+    {
+      "default" : "true",
+      "identifier" : "lowercase",
+      "label" : {
+        "en" : "Lowercase (a-z)",
+        "ja" : "小文字 (a-z)",
+        "zh-Hans" : "小写字母 (a-z)",
+        "zh-Hant" : "小寫字母 (a-z)"
+      },
+      "type" : "boolean"
+    },
+    {
+      "default" : "true",
+      "identifier" : "uppercase",
+      "label" : {
+        "en" : "Uppercase (A-Z)",
+        "ja" : "大文字 (A-Z)",
+        "zh-Hans" : "大写字母 (A-Z)",
+        "zh-Hant" : "大寫字母 (A-Z)"
+      },
+      "type" : "boolean"
+    },
+    {
+      "default" : "true",
+      "identifier" : "number",
+      "label" : {
+        "en" : "Numbers (0-9)",
+        "ja" : "数字 (0-9)",
+        "zh-Hans" : "数字 (0-9)",
+        "zh-Hant" : "數字 (0-9)"
+      },
+      "type" : "boolean"
+    },
+    {
+      "default" : "true",
+      "identifier" : "symbol",
+      "label" : {
+        "en" : "Symbols",
+        "ja" : "記号",
+        "zh-Hans" : "符号",
+        "zh-Hant" : "符號"
+      },
+      "type" : "boolean"
+    },
+    {
+      "default" : "",
+      "identifier" : "customSymbols",
+      "label" : {
+        "en" : "Custom symbols",
+        "ja" : "カスタム記号",
+        "zh-Hans" : "自定义符号",
+        "zh-Hant" : "自訂符號"
+      },
+      "type" : "string"
+    },
+    {
+      "default" : "false",
+      "identifier" : "excludeAmbiguous",
+      "label" : {
+        "en" : "Exclude look-alikes (0 O 1 l I |)",
+        "ja" : "紛らわしい文字を除外 (0 O 1 l I |)",
+        "zh-Hans" : "排除易混字符 (0 O 1 l I |)",
+        "zh-Hant" : "排除易混字元 (0 O 1 l I |)"
+      },
+      "type" : "boolean"
+    },
+    {
+      "default" : "false",
+      "identifier" : "noRepeat",
+      "label" : {
+        "en" : "No adjacent duplicates",
+        "ja" : "隣接する重複を禁止",
+        "zh-Hans" : "禁止相邻重复",
+        "zh-Hant" : "禁止相鄰重複"
+      },
+      "type" : "boolean"
+    }
+  ],
+  "version" : "1.0.0"
+}
