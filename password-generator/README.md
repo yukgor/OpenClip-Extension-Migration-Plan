@@ -48,3 +48,4 @@ Recommended default is **Show in Card** (`result: "preview"`); change it anytime
 ## Statement / 声明
 
 **This OpenClip extension is a port of the original PopClip plugin by [Seven Yu](https://github.com/dofy), licensed under the MIT License.**
+**此 OpenClip 扩展是 [Seven Yu](https://github.com/dofy) 开发的原版 PopClip 插件移植版，采用 MIT 许可证授权。**
