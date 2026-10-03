@@ -29,3 +29,4 @@ Convert text between Traditional and Simplified Chinese. A port of the PopClip e
 ## Statement / 声明
 
 **This OpenClip extension is a port of the original PopClip plugin by [Nick Moore](https://github.com/pilotmoon), licensed under the MIT License.**
+**这个 OpenClip 扩展是 [Nick Moore](https://github.com/pilotmoon) 原版 PopClip 插件的移植版本，采用 MIT 许可证授权。**
