@@ -9,5 +9,6 @@
 - 密码生成 password-generator
 
 
-将扩展文件夹放置于 ~/.openclip/extensions
-（shift+command+. 显示隐藏文件夹）
+将扩展文件夹放置于 ~/.openclip/extensions 文件夹后，到设置面板中打开并根据自己的习惯进行设置即可。
+
+（快捷键 shift+command+. 显示隐藏文件夹）
