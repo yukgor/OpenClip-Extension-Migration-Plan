@@ -20,7 +20,10 @@
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-        <a href="https://github.com/yukgor/OpenClip-Extension-Migration-Plan/releases/latest" class="btn">📥 下载最新版本</a>
+      <br>
+        <a href="https://github.com/yukgor/OpenClip-Extension-Migration-Plan/releases/download/OpenClip/mosaic-text.openclipext" class="btn">📥 下载文字打码</a>
+        <a href="https://github.com/yukgor/OpenClip-Extension-Migration-Plan/releases/download/OpenClip/traditional-simplified.openclipext" class="btn">📥 下载中文简繁互转</a>
+        <a href="https://github.com/yukgor/OpenClip-Extension-Migration-Plan/releases/download/OpenClip/password-generator.openclipext" class="btn">📥 下载密码生成</a>
       {% endif %}
       {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
