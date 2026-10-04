@@ -32,5 +32,6 @@ After placing the extension folder into the ~/.openclip/extensions folder, simpl
 
 **With the latest version of OpenClip, you can install the extension simply by double-clicking it.**
 
+[📥 下载最新版本](https://github.com/yukgor/OpenClip-Extension-Migration-Plan/releases/latest)
+
 <a href="https://github.com/yukgor/OpenClip-Extension-Migration-Plan/releases/latest" class="btn">📥 下载最新版本</a>
-<a href="https://github.com/yukgor/OpenClip-Extension-Migration-Plan" class="btn">⭐ 查看源码</a>
