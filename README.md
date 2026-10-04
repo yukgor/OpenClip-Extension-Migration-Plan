@@ -13,6 +13,8 @@
 
 （快捷键 shift+command+. 显示隐藏文件夹）
 
+**最新版 OpenClip 可直接双击安装扩展。**
+
 This is a plan to migrate common **PopClip** extensions to **OpenClip**. The code follows OpenClip's development standards and has been translated by AI throughout.
 
 
@@ -27,3 +29,5 @@ Currently translated:
 After placing the extension folder into the ~/.openclip/extensions folder, simply open it in the settings panel and configure it according to your preferences.
 
 (Shortcut: shift+command+. to show hidden folders)
+
+**With the latest version of OpenClip, you can install the extension simply by double-clicking it.**
